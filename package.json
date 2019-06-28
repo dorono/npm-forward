@@ -1,0 +1,22 @@
+{
+  "name": "npm-forward",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorono/npm-forward.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorono/npm-forward/issues"
+  },
+  "homepage": "https://github.com/dorono/npm-forward#readme",
+  "dependencies": {
+      "integrate": "git+ssh://git@github.com/FactomProject/integrate-js-sdk.git"
+  }
+}
