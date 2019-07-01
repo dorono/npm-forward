@@ -1,0 +1,68 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+        "VerifiablePresentation"
+    ],
+    "verifiableCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "issuer": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1",
+        "issuanceDate": "2000-04-21",
+        "credentialSubject": [
+            {
+                "id": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1",
+                "FullName": "John Doe",
+                "DOB": "Aug 31"
+            },
+            {
+                "id": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1",
+                "Age": 46,
+                "Status": "Employed"
+            }
+        ]
+    },
+    "proof": [
+        {
+            "type": "ed25519signature2018",
+            "created": "2019-06-07T22:17:38.622Z",
+            "creator": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1#key-1",
+            "signatureValue": "NxGIUsW2hslr4PpdX4/rI5ePxj/meph9QKhNUGdrdDajNH+loWvyy2euxaYFTcxzxpTZon20qw7341jegIHaDg=="
+        },
+        {
+            "type": "RsaSignature2018",
+            "created": "2018-06-18T21:19:10Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "https://example.com/jdoe/keys/1",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19ZhDJBMvvFAIC00nSGB6Tn0XKbbF9XrsaJZREWvR2aONYTQQxnyXirtXnlewJMB"
+        }
+    ],
+    "_factomMetadata": {
+        "pendingFactomEntries": [
+            {
+                "entityType": "presentation",
+                "entityHash": "234bdc6aa3438583c337adbc2928805d9669d40b0c1287bbccf53e9179de6072",
+                "entryHash": "5f6d60b17973b4c4380131529dd0b67d146f80f35cf409a86cfd7358f8820ca7"
+            },
+            {
+                "entityType": "credential",
+                "entityHash": "b9498faa2b22a5c300fea99a161ab23cbfe9aa0dbcad1a0f69bafa854c2dbb94",
+                "entryHash": "b6e49fc15ef46c4de165ab3fcfc01f1f3aef7b42d96128226df615d360569684"
+            },
+            {
+                "entityType": "claim",
+                "entityHash": "c057a6a72cdc19081723792174a3774714171c59eb8ff2963080a06ef18a1ecc",
+                "entryHash": "1647fb163d307a58ee7b9a1e43277b9d3b58f25adf3f132b3c3bff17eda25be8",
+                "id": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1"
+            },
+            {
+                "entityType": "claim",
+                "entityHash": "da1368984a5052af1a631145265f59ca9b673f021941e961b04e45d5338812a6",
+                "entryHash": "00af9ae704a4b2c87f509ccda1c8187ed2a66802a2b85e1d3ab0b00b3331dec2",
+                "id": "did:factom:3227cb6bf6bc1473f80a01705df7f85c150270642553abf3552c36431eddc8c1"
+            }
+        ]
+    }
+}

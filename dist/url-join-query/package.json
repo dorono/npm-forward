@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "url-join-query@1.0.3",
+      "/Users/DoronHomeFolder/Sites/factom/npm-forward"
+    ]
+  ],
+  "_from": "url-join-query@1.0.3",
+  "_id": "url-join-query@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-e7UxmCTkhoADhGuu4llySZSxcSQ=",
+  "_location": "/url-join-query",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "url-join-query@1.0.3",
+    "name": "url-join-query",
+    "escapedName": "url-join-query",
+    "rawSpec": "1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "1.0.3"
+  },
+  "_requiredBy": [
+    "/factom-harmony-connect"
+  ],
+  "_resolved": "https://registry.npmjs.org/url-join-query/-/url-join-query-1.0.3.tgz",
+  "_spec": "1.0.3",
+  "_where": "/Users/DoronHomeFolder/Sites/factom/npm-forward",
+  "author": {
+    "name": "xiaomingplus"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaomingplus/url-join-query/issues"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "description": "Combine queryString to url",
+  "homepage": "https://github.com/xiaomingplus/url-join-query#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "url-join-query",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaomingplus/url-join-query.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
