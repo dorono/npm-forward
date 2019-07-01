@@ -1,18 +1,16 @@
 {
   "name": "npm-forward",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
-  "main": "index.js",
+  "main": "dist/factom-harmony-integrate/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "node copy.js",
-    "empty": "node empty.js",
+    "remove": "node remove.js",
+    "rename": "node rename.js",
     "installIntegrate": "npm install git+ssh://git@github.com/FactomProject/integrate-js-sdk.git",
-    "install": "npm run installIntegrate && npm run empty && npm run copy"
+    "install": "npm run remove && npm run installIntegrate && npm run rename"
   },
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/FactomProject/integrate-js-sdk.git"
